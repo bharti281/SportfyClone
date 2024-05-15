@@ -1,0 +1,55 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.bg-black{
+    background-color: black;
+    color: white;
+}
+.invert{
+    filter: invert(1);
+}
+.bg-gry{
+    background-color: #121212 ;
+}
+.rounded{
+    border-radius:  7px;
+}
+.m-1{
+    margin: 5px;
+}
+.p-1{
+    padding: 10px;
+}
+/* For a dark scroll bar */
+
+/* Set the color scheme for the entire page */
+body {
+    color-scheme: dark;
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+/* Styling the scrollbar */
+::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+
+::-webkit-scrollbar-track {
+    background: #2C2C2C; /* color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444; /* color of the scrollbar itself */
+    border-radius: 6px;
+    border: 3px solid #2C2C2C; /* creates padding around the scroll */
+}
